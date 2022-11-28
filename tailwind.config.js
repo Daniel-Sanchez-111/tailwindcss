@@ -6,6 +6,9 @@ module.exports = {
   "./resources/**/*.vue",
   ],
   theme: {
+    fontFamily:{
+      'franklin': ['Libre Franklin'],
+    },
     container: {
       center:true,
     },

@@ -9,11 +9,13 @@
 </head>
 <body>
     <div class="container py-12">
-        <p class="bg-orange-700 text-white hidden sm:inline-block md:block ">Etiqueta en bloque</p>
-        <div class="bg-red-700 text-white">Etiqueta en bloque</div>
-
-        <span class="bg-green-700 text-white block">Etiqueta inline</span>
-        <a href="#" class="bg-yellow-300 text-white">Etiqueta inline</a>
+        <h1 class="font-extrabold mb-4 font-franklin">Titulo de prueba</h1>
+        <p class="font-serif text leading-tight uppercase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iusto architecto dolor sed ratione sit atque in dolores expedita repellat.</p>
+        <ul class="list-disc hover:text-red-500 sm:list-none md:list-decimal lg:list-disc lg:list-inside">
+            <li class="text-xl capitalize">dsadADS dXDDd dsdasd</li>
+            <li class="text-sm">2</li>
+            <li class="text-md">3</li>
+        </ul>
     </div>
 </body>
 </html>
