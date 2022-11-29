@@ -8,14 +8,34 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
 <body>
-    <div class="container py-12">
-        <h1 class="font-extrabold mb-4 font-franklin">Titulo de prueba</h1>
-        <p class="font-serif text leading-tight uppercase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iusto architecto dolor sed ratione sit atque in dolores expedita repellat.</p>
-        <ul class="list-disc hover:text-red-500 sm:list-none md:list-decimal lg:list-disc lg:list-inside">
-            <li class="text-xl capitalize">dsadADS dXDDd dsdasd</li>
-            <li class="text-sm">2</li>
-            <li class="text-md">3</li>
-        </ul>
+    <div class="container">
+        <table class="w-full border">
+            <thead>
+                <tr class=" border border-gray-300 px-4 py-2 table-fixed">
+                    <th class="w-1/4">Pais</th>
+                    <th class="w-1/4">Ciudad</th>
+                    <th class="w-1/2">Descripcion</th>               
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr class="bg-blue-200 hover:bg-blue-400">
+                    <td class=" border border-gray-300 px-4 py-2 hover:font-bold">Mexico</td>
+                    <td class=" border border-gray-300 px-4 py-2 hover:font-bold">CDMX</td>
+                    <td class="border border-gray-400 px-4 py-2 hover:font-bold">Lorem ipsum dolor sit amet.</td>
+                </tr>
+                <tr class="hover:bg-gray-200">
+                    <td class=" border border-gray-300 px-4 py-2 hover:font-bold">Inglaterra</td>
+                    <td class=" border border-gray-300 px-4 py-2 hover:font-bold">Londres</td>
+                    <td class="border border-gray-400 px-4 py-2 hover:font-bold">Lorem ipsum dolor sit amet.</td>
+                </tr>
+                <tr class="bg-blue-200 hover:bg-blue-400">
+                    <td class=" border border-gray-300 px-4 py-2 hover:font-bold">Argentina</td>
+                    <td class=" border border-gray-300 px-4 py-2 hover:font-bold">Buenos Aires</td>
+                    <td class="border border-gray-400 px-4 py-2 hover:font-bold">Lorem ipsum dolor sit amet.</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </body>
 </html>
